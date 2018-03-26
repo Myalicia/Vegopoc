@@ -6,7 +6,7 @@ export default ()=> {
   return(
     <View>
      <Text> homepage</Text>
-     <Link to="/Test"> 
+     <Link to="/Test" > 
         <Text> To test </Text>
      </Link>
     </View>
