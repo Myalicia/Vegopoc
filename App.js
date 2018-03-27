@@ -10,6 +10,7 @@ import { NativeRouter, Route, Link } from 'react-router-native'
 
 import Home from './src/views/Home'
 import Test from './src/views/Test'
+import Header from 'Todo_app/src/components/Header'
 
 
 
@@ -29,6 +30,9 @@ export default class App extends Component {
     return (
       <NativeRouter>
         <View style={styles.container}>
+        <View style={styles.titlebar}>
+        <Header />
+        </View>
           <Route exact path="/" component={Home} />
           <Route path="/Test" component={Test} />
         </View>
@@ -44,14 +48,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  
+  titlebar: {
+    backgroundColor: 'grey',
+    margin: 11,
+    
   },
 })
