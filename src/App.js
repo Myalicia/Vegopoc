@@ -1,15 +1,16 @@
 import React, {Component} from 'react'
 import { View } from 'react-native'
-import {Header} from './components/common'
-import {RecepieItem} from './components/RecepieItem'
+import {Header, Card} from './components/common'
+import RecepieItem from './components/RecepieItem';
 
 
 class App extends Component {
     render (){
         return(
            <View>
-            <Header />
-            
+            <Header headerText={'Recept'}/>
+            <RecepieItem> </RecepieItem>
+        
                
            </View>
         )
