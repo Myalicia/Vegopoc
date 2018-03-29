@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import { Text } from 'react-native'
-import {Card, CardSection, Button} from './common'
+import {Card, CardSection, Button, Title} from './common'
 
 
 
@@ -15,7 +15,7 @@ const RecepieItem = ()=> {
         return(
             <Card>
                 <CardSection>
-                    <Text> Champinjonsoppa </Text>
+                    <Title title={'Champinjonsoppa'} />
                 </CardSection>
                 <CardSection>
                     <Button/>
@@ -47,7 +47,7 @@ const RecepieItem = ()=> {
           flex: 1,
           width: null
         }
-      };
+      }
 
 
 export default RecepieItem
