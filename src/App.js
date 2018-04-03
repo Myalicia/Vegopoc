@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { View } from 'react-native'
+import { ScrollView } from 'react-native'
 import {Header, Card} from './components/common'
 import RecepieItem from './components/RecepieItem';
 
@@ -7,7 +7,7 @@ import RecepieItem from './components/RecepieItem';
 class App extends Component {
     render (){
         return(
-           <View>
+           <ScrollView>
             <Header headerText={'Recept'}/>
             <RecepieItem> </RecepieItem>
             <RecepieItem> </RecepieItem>
@@ -15,7 +15,7 @@ class App extends Component {
             <RecepieItem> </RecepieItem>
         
                
-           </View>
+           </ScrollView>
         )
     }
     
