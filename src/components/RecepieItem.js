@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import { Text } from 'react-native'
-import {Card, CardSection, Button, Title} from './common'
+import { Text, Image } from 'react-native'
+import {Card, CardSection, Button, Title} from './common' 
 
 
 
@@ -15,8 +15,12 @@ const RecepieItem = ()=> {
         return(
             <Card>
                 <CardSection>
-                    <Title title={'Champinjonsoppa'} />
+                    <Title title={'VEGOBURGARE'} />
                 </CardSection>
+                <Image
+                    style={imageStyle}
+                    source={{ uri: 'https://www.vegourmet.se/wp-content/uploads/2018/02/javligt-gott-burgare-web-1024x630.jpg)' }}
+                />
                 <CardSection>
                     <Button/>
                 </CardSection>
@@ -44,8 +48,9 @@ const RecepieItem = ()=> {
         },
         imageStyle: {
           height: 300,
-          flex: 1,
-          width: null
+          width: 363
+        
+    
         }
       }
 

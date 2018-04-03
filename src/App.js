@@ -10,6 +10,9 @@ class App extends Component {
            <View>
             <Header headerText={'Recept'}/>
             <RecepieItem> </RecepieItem>
+            <RecepieItem> </RecepieItem>
+            <RecepieItem> </RecepieItem>
+            <RecepieItem> </RecepieItem>
         
                
            </View>
