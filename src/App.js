@@ -1,8 +1,11 @@
 import React, {Component} from 'react'
-import { ScrollView } from 'react-native'
+import { ScrollView, View } from 'react-native'
+import {Provider} from 'react-redux'
+import {createStore} from 'redux'
 import {Header, Card} from './components/common'
 import RecepieItem from './components/RecepieItem';
 import firebase from 'firebase'
+import reducers from './reducers'
 
 
 class App extends Component {
@@ -18,6 +21,8 @@ class App extends Component {
      )}
     render (){
         return(
+            <Provider store={createStore(reducers)}>
+                <View>
            <ScrollView>
             <Header headerText={'Recept'}/>
             <RecepieItem> </RecepieItem>
@@ -27,6 +32,8 @@ class App extends Component {
         
                
            </ScrollView>
+           </View>
+           </Provider>
         )
     }
     
