@@ -4,30 +4,36 @@ import {Card, CardSection, Button, Title} from './common'
 
 
 
-const RecepieItem = ()=> {
-    const {
-        thumbnailStyle,
-        headerContentStyle,
-        thumbnailContainerStyle,
-        headerTextStyle,
-        imageStyle
-      } = styles;
+
+
+class RecepieItem extends Component {
+
+    onButtonPress() {
+        const { title } = this.state;
+    }
+      
+
+    render(){
         return(
             <Card>
                 <CardSection>
                     <Title title={'VEGOBURGARE'} />
                 </CardSection>
                 <Image
-                    style={imageStyle}
+                    style={styles.imageStyle}
                     source={{ uri: 'https://www.vegourmet.se/wp-content/uploads/2018/02/javligt-gott-burgare-web-1024x630.jpg)' }}
                 />
                 <CardSection>
-                    <Button/>
+                    <Button onPress={this.onButtonPress.bind(this)}>
+                        LAGA
+                    </Button>
                 </CardSection>
                 
             </Card>
         )
     }
+    }
+
     const styles = {
         headerContentStyle: {
           flexDirection: 'column',
@@ -53,6 +59,7 @@ const RecepieItem = ()=> {
     
         }
       }
+    
 
 
 export default RecepieItem
