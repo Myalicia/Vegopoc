@@ -7,7 +7,7 @@ const Button = ({ onPress, children }) => {
   return (
     <TouchableOpacity onPress={onPress} style={buttonStyle}>
       <Text style={textStyle}>
-        LAGA NU
+        { children }
       </Text>
     </TouchableOpacity>
   )
@@ -16,21 +16,21 @@ const Button = ({ onPress, children }) => {
 const styles = {
   textStyle: {
     alignSelf: 'center',
-    color: 'white',
-    fontSize: 15,
-    fontWeight: 'bold',
-    paddingTop: 5,
-    paddingBottom: 5
+    color: '#007aff',
+    fontSize: 16,
+    fontWeight: '600',
+    paddingTop: 10,
+    paddingBottom: 10
   },
   buttonStyle: {
     flex: 1,
     alignSelf: 'stretch',
-    backgroundColor: 'grey',
-    borderRadius: 1,
+    backgroundColor: '#fff',
+    borderRadius: 5,
     borderWidth: 1,
-    borderColor: 'white',
-    marginLeft: 50,
-    marginRight: 50
+    borderColor: '#007aff',
+    marginLeft: 5,
+    marginRight: 5
   }
 }
 
