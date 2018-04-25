@@ -1,10 +1,11 @@
 import React, {Component} from 'react'
 import { ScrollView, View } from 'react-native'
 import {Provider} from 'react-redux'
-import {createStore} from 'redux'
+import {createStore, applyMiddleware} from 'redux'
 import {Header, Card} from './components/common'
 import RecepieItem from './components/RecepieItem';
 import firebase from 'firebase'
+import ReduxThunk from 'redux-thunk'
 import reducers from './reducers'
 import LoginForm from './components/loginForm'
 
@@ -22,8 +23,9 @@ class App extends Component {
      firebase.initializeApp(config)
     }
     render (){
+        const store = createStore(reducers, {}, applyMiddleware(ReduxThunk))
         return(
-            <Provider store={createStore(reducers)}>
+            <Provider store={store}>
                 <View>
                      <Header headerText={'Welcome'}/>
                     <LoginForm />
