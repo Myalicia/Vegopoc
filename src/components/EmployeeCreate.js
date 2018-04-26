@@ -13,7 +13,7 @@ class EmployeeCreate extends Component {
                 label="Name" 
                 placeholder="Sophia" 
                 value={this.props.name}
-                onChangeText={text => this.props.employeeUpdate({prop:'name' , value: text})}
+                onChangeText={value => this.props.employeeUpdate({ prop: 'name', value })}
                 />
             </Cardsection>
 
@@ -22,7 +22,8 @@ class EmployeeCreate extends Component {
                 label="Phone" 
                 placeholder="070-777 77 77" 
                 value={this.props.phone}
-                onChangeText={text => this.props.employeeUpdate({prop:'phone' , value: text})} />
+                onChangeText={value => this.props.employeeUpdate({ prop: 'phone', value })}
+                 />
             </Cardsection>
 
             <Cardsection>

@@ -1,13 +1,9 @@
 import React, {Component} from 'react'
-import { View } from 'react-native'
 import {Provider} from 'react-redux'
 import {createStore, applyMiddleware} from 'redux'
-import {Card} from './components/common'
-import RecepieItem from './components/RecepieItem';
 import firebase from 'firebase'
 import ReduxThunk from 'redux-thunk'
 import reducers from './reducers'
-import LoginForm from './components/loginForm'
 import Router from './Router'
 
 
@@ -30,8 +26,6 @@ class App extends Component {
                 <Router />     
            </Provider>
         )
-    }
-    
-
+    }    
 }
 export default App
