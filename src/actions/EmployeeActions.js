@@ -5,3 +5,4 @@ export const EmployeeUpdate = ({prop, value}) => {
         payload: {prop,value}
     }
 }
+
