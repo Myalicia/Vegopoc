@@ -48,9 +48,9 @@ class EmployeeCreate extends Component {
 }
 
 const mapStateToProps = (state) => {
-    const { name, phone, shift } = state.employeeForm;
+    const { name, phone } = state.employeeForm;
   
-    return { name, phone, shift }
+    return { name, phone }
   }
 
 export default connect(mapStateToProps, {employeeUpdate, employeeCreate})(EmployeeCreate)

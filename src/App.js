@@ -5,6 +5,8 @@ import firebase from 'firebase'
 import ReduxThunk from 'redux-thunk'
 import reducers from './reducers'
 import Router from './Router'
+import store from './store'
+
 
 
 class App extends Component {
@@ -18,9 +20,11 @@ class App extends Component {
             messagingSenderId: '894754942143'
           }
      firebase.initializeApp(config)
+     
     }
+    
     render (){
-        const store = createStore(reducers, {}, applyMiddleware(ReduxThunk))
+        
         return(
             <Provider store={store}>
                 <Router />     

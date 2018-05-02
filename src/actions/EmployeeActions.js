@@ -10,7 +10,6 @@ export const employeeUpdate = ({ prop, value })=> {
 }
 
 export const employeeCreate = ({name, phone})=> {
-   
     const {currentUser} = firebase.auth()
     firebase.database().ref(`/users/${currentUser.uid}/employees`)
     .push({name, phone})
