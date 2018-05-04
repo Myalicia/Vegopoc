@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { employeeUpdate, employeeCreate } from '../actions/EmployeeActions'
-import { Card, CardSection, Input, Button } from './common'
+import { Card, CardSection, Button } from './common'
+import EmployeeForm from './EmployeeForm';
 
 class EmployeeCreate extends Component {
     onButtonpress(){
@@ -13,30 +14,7 @@ class EmployeeCreate extends Component {
     render() {
         return (
             <Card>
-                <CardSection>
-                    <Input
-                        label="Name"
-                        placeholder="sofia"
-                        value = {this.props.name}
-                        onChangeText = {value => this.props.employeeUpdate({ prop: 'name', value })}
-                        
-                    />
-                </CardSection>
-
-                <CardSection>
-                    <Input
-                    label="Phone"
-                    placeholder="070 777 77 77"
-                    value={this.props.phone}
-                    onChangeText={value => this.props.employeeUpdate({prop: 'phone',value})}
-
-                    />
-                </CardSection>
-
-                <CardSection>
-               
-                </CardSection>
-
+                <EmployeeForm {...this.propd} />
                 <CardSection>
                     <Button onPress={this.onButtonpress.bind(this)} >
                         create

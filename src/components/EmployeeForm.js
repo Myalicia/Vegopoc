@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import { CardSection, Input} from './common'
+import {connect} from 'react-redux'
+import {employeeUpdate} from '../actions'
 import {View, Text} from 'react-native'
 
 class EmployeeForm extends Component {
@@ -28,4 +30,9 @@ class EmployeeForm extends Component {
     }
 }
 
-export default EmployeeForm
+const mapStateToProps = (state) => {
+    const {name, phone} = state.employeeForm
+        return {name, phone}
+}
+
+export default connect(mapStateToProps,{employeeUpdate})(EmployeeForm)
