@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import _ from 'lodash'
 import {connect} from 'react-redux'
 import EmployeeForm from './EmployeeForm'
-import {employeeUpdate, employeeSave} from '../actions'
+import {employeeUpdate, employeeSave, employeeDelete} from '../actions'
 import {Card, CardSection,Button, Confirm} from './common'
 
 class EmployeeEdit extends Component {
@@ -20,6 +20,8 @@ class EmployeeEdit extends Component {
     }
 
     onAccept(){
+        const { uid } = this.props.employee
+        this.props.employeeDelete({ uid: this.props.employee.uid })
 
     }
 
@@ -59,4 +61,4 @@ const mapStateToProps = (state) => {
     return {name, phone}
 }
 
-export default connect(mapStateToProps,{employeeUpdate, employeeSave})(EmployeeEdit)
+export default connect(mapStateToProps,{employeeUpdate, employeeSave, employeeDelete})(EmployeeEdit)
