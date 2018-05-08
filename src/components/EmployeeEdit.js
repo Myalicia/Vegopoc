@@ -19,6 +19,14 @@ class EmployeeEdit extends Component {
         this.props.employeeSave({ name, phone, uid: this.props.employee.uid })
     }
 
+    onAccept(){
+
+    }
+
+    onDecline(){
+        this.setState({showModal: false})
+    }
+
     render(){
         return(
             <Card>
@@ -33,7 +41,11 @@ class EmployeeEdit extends Component {
                         Delete
                     </Button>
                  </CardSection>
-                <Confirm visible ={this.state.showModal}>
+                <Confirm 
+                visible ={this.state.showModal}
+                onAccept={this.onAccept.bind(this)}
+                onDecline={this.onDecline.bind(this)}
+                >
                     Do you want to delete this employee?
                 </Confirm>
             </Card>

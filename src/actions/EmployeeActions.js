@@ -54,3 +54,7 @@ export const employeeSave = ({name, phone, uid}) => {
         })
     }
 }
+
+export const employeeDelete = () => {
+    
+}
