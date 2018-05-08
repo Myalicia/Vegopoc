@@ -3,9 +3,6 @@ import { Text, Image } from 'react-native'
 import {Card, CardSection, Button, Title} from './common' 
 
 
-
-
-
 class RecepieItem extends Component {
 
     onButtonPress() {

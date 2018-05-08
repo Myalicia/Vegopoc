@@ -3,7 +3,7 @@ import _ from 'lodash'
 import { ListView} from 'react-native'
 import { connect } from 'react-redux'
 import {employeesFetch} from '../actions/EmployeeActions'
-import ListItem from './ListItem'
+import ImageWithText from './ImageWithText'
 
 
 class EmployeeList extends Component {
@@ -25,7 +25,7 @@ class EmployeeList extends Component {
       }
 
     renderRow(employee){
-        return <ListItem employee={employee}/>
+        return <ImageWithText employee={employee}/>
     }
 
     render() {

@@ -10,16 +10,16 @@ class EmployeeForm extends Component {
         <View>
         <CardSection>
              <Input
-                label="Name"
-                placeholder="sofia"
+                label="Recepie"
+                placeholder="Veggieburger"
                 value = {this.props.name}
                 onChangeText = {value => this.props.employeeUpdate({ prop: 'name', value })}
             />
         </CardSection>
         <CardSection>
             <Input
-                label="Phone"
-                placeholder="070 777 77 77"
+                label="Image uri"
+                placeholder="https://www.vegourmet.se/wp-content/uploads/2018/02/javligt-gott-burgare-web-1024x630.jpg)"
                 value={this.props.phone}
                 onChangeText={value => this.props.employeeUpdate({prop: 'phone',value})}
             />
