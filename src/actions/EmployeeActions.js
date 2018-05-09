@@ -15,11 +15,11 @@ export const employeeUpdate = ({ prop, value })=> {
 }
 
 
-export const employeeCreate = ({name, phone})=> {
+export const employeeCreate = ({name, phone, ingredients, instructions})=> {
     const {currentUser} = firebase.auth()
     return(dispatch) => {
         firebase.database().ref(`/users/${currentUser.uid}/employees`)
-        .push({name, phone})
+        .push({name, phone, ingredients, instructions})
         .then( () => {
         dispatch({ type: EMPLOYEE_CREATE})
         Actions.pop() 
@@ -47,7 +47,7 @@ export const employeeSave = ({name, phone, uid}) => {
         .set({name, phone})
         .then (() => {
         dispatch({ type: EMPLOYEE_CREATE})
-        Actions.pop()
+        Actions.pop({type: 'replace'})
         
         
         

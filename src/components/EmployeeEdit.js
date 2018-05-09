@@ -56,9 +56,9 @@ class EmployeeEdit extends Component {
     }
 }
 const mapStateToProps = (state) => {
-    const {name, phone} = state.employeeForm
+    const {name, phone, ingredients, instructions} = state.employeeForm
 
-    return {name, phone}
+    return {name, phone, ingredients, instructions}
 }
 
 export default connect(mapStateToProps,{employeeUpdate, employeeSave, employeeDelete})(EmployeeEdit)

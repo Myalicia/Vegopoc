@@ -6,15 +6,15 @@ import EmployeeForm from './EmployeeForm';
 
 class EmployeeCreate extends Component {
     onButtonpress(){
-        const {name, phone} = this.props
-            this.props.employeeCreate({name, phone})
+        const {name, phone, ingredients, instructions} = this.props
+            this.props.employeeCreate({name, phone, ingredients, instructions})
     }
 
    
     render() {
         return (
             <Card>
-                <EmployeeForm {...this.propd} />
+                <EmployeeForm {...this.props} />
                 <CardSection>
                     <Button onPress={this.onButtonpress.bind(this)} >
                         create
@@ -26,9 +26,9 @@ class EmployeeCreate extends Component {
 }
 
 const mapStateToProps = (state) => {
-    const { name, phone } = state.employeeForm;
+    const { name, phone, ingredients, instructions } = state.employeeForm;
   
-    return { name, phone }
+    return { name, phone, ingredients, instructions }
   }
 
 export default connect(mapStateToProps, {employeeUpdate, employeeCreate})(EmployeeCreate)

@@ -7,7 +7,9 @@ from '../actions/types'
 
 const INITIAL_STATE = {
   name: '',
-  phone: ''
+  phone: '',
+  ingredients: '',
+  instructions: ''
 }
 
 export default (state = INITIAL_STATE, action) => {
