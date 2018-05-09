@@ -15,8 +15,8 @@ class EmployeeEdit extends Component {
     
    
     onButtonPress(){
-        const { name, phone } = this.props;
-        this.props.employeeSave({ name, phone, uid: this.props.employee.uid })
+        const { name, phone, ingredients, instructions } = this.props;
+        this.props.employeeSave({ name, phone, ingredients, instructions, uid: this.props.employee.uid })
     }
 
     onAccept(){
