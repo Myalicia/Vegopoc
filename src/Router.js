@@ -23,7 +23,7 @@ const RouterComponent = () => {
                     />
                         
                     <Scene key="employeeCreate" component={EmployeeCreate} title="Create Recepie"  />
-                    <Scene key="employeeEdit" component={EmployeeEdit} title="Edit Employee" />
+                    <Scene key="employeeEdit" component={EmployeeEdit} title="Edit Recepie" />
                 </Scene>
             </Scene>
         </Router>

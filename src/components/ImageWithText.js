@@ -7,6 +7,8 @@ import {
         ImageBackground
     } from 'react-native'
 import {CardSection, Card} from './common'
+import {Actions} from 'react-native-router-flux'
+
 
 
 class ImageWithText extends Component {
@@ -15,9 +17,10 @@ class ImageWithText extends Component {
     }
 
     render(){
-        const {name, phone} = this.props.employee
+        const {name, phone, ingredients,instructions} = this.props.employee
         return(
             <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
+            <View>
             <CardSection>
                 <View style={styles.container}>
                     <ImageBackground 
@@ -32,6 +35,7 @@ class ImageWithText extends Component {
                     </ImageBackground>
                 </View>
             </CardSection>
+            </View>
             </TouchableWithoutFeedback>
         )
     }
