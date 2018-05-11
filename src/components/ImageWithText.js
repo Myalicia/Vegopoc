@@ -21,7 +21,7 @@ class ImageWithText extends Component {
         return(
             <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
             <View>
-            <CardSection>
+            
                 <View style={styles.container}>
                     <ImageBackground 
                     style={styles.imageStyle}
@@ -34,7 +34,7 @@ class ImageWithText extends Component {
                         </Text>
                     </ImageBackground>
                 </View>
-            </CardSection>
+            
             </View>
             </TouchableWithoutFeedback>
         )
