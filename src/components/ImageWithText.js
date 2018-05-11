@@ -53,18 +53,19 @@ const styles = {
     imageStyle: {
         flexGrow:1,
         height:353,
-        width:371,
+        width:377,
         alignItems: 'flex-end',
        justifyContent:'flex-end',
        opacity: 0.9
     },
     textStyle: {
-        fontSize: 25,
-        fontFamily: 'times',
-        color: 'white',
+        fontSize: 29,
+        fontFamily: 'palatino',
+        color: 'rgb(239,236,233)',
         fontWeight: 'bold',
         textShadow: '2px 2px 4px #000000',
-        padding: 5
+        padding: 15
+        
     }
 }
 

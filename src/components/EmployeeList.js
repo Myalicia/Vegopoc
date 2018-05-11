@@ -4,6 +4,7 @@ import { ListView} from 'react-native'
 import { connect } from 'react-redux'
 import {employeesFetch} from '../actions/EmployeeActions'
 import ImageWithText from './ImageWithText'
+import ListItem from './ListItem';
 
 
 class EmployeeList extends Component {
