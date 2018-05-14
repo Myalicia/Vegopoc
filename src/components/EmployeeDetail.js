@@ -34,7 +34,7 @@ class EmployeeDetail extends Component {
 }
 const styles = {
     textStyle:{
-        fontFamily='BrandonGrotesque'
+        fontFamily:'Brandon Grotesque'
     }
 }
 
