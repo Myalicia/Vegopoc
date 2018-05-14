@@ -33,8 +33,7 @@
   },
   "rnpm": {
     "assets": [
-	"./assets/Brandon Grotesque/"
+      "./assets/Brandon Grotesque/"
     ]
+  }
 }
-}
-
