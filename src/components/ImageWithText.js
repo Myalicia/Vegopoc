@@ -31,7 +31,7 @@ class ImageWithText extends Component {
                             >
                             
                         <Text style={styles.textStyle}>
-                            {name}
+                            {name.toUpperCase()}
                         </Text>
                     </ImageBackground>
                 </View>
@@ -61,7 +61,7 @@ const styles = {
     },
     textStyle: {
         fontSize: 25,
-        fontFamily: 'helvetica',
+        fontFamily: 'Brandon Grotesque',
         color: 'rgb(239,236,233)',
         fontWeight: 'bold',
         textShadow: '2px 2px 4px #000000',

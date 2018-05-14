@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View,Text} from 'react-native'
+import {View,Text, Image, ScrollView} from 'react-native'
 import ImageWithText from './ImageWithText'
 import {Actions} from 'react-native-router-flux'
 import {connect} from 'react-redux'
@@ -16,25 +16,57 @@ class EmployeeDetail extends Component {
       }
 
     render(){
-        const {name, phone} = this.props.employee
+        const {name, phone, ingredients, instructions} = this.props.employee
         return(
-            <View>
+            <ScrollView>
+            
+                <Image 
+                    source={{uri:phone}}
+                    style={styles.imageStyle}
+                />
                 <Text style={styles.textStyle}>
-                    EmployeeDetail {name}
-
+                    {name.toUpperCase()}
                 </Text>
+
+                <View style={{backgroundColor: 'black'}}>
+
+                <Text style={styles.ingredientStyle}>
+                    {ingredients}
+                </Text>
+                <Text style={styles.ingredientStyle}>
+                    {instructions}
+                 </Text>
+                 </View>
                 
             
                 
             
-            </View>
+            
+            </ScrollView>
         )
 
     }
 }
 const styles = {
     textStyle:{
-        fontFamily:'Brandon Grotesque'
+        fontFamily:'Brandon Grotesque',
+        fontSize: 20,
+        margin: 10,
+        fontWeight: 'bold',
+        paddingBottom: 20
+    },
+    imageStyle: {
+        flexGrow:1,
+        height:353,
+        width:377,
+        alignItems: 'flex-end',
+       justifyContent:'flex-end',
+       opacity: 0.9
+    },
+    ingredientStyle:{
+        fontFamily:'Brandon Grotesque',
+        fontSize: 20,
+        color: 'white'
     }
 }
 
