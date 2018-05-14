@@ -4,6 +4,7 @@ import LoginForm from './components/loginForm'
 import EmployeeList from './components/EmployeeList'
 import EmployeeCreate from './components/EmployeeCreate'
 import EmployeeEdit from './components/EmployeeEdit'
+import EmployeeDetail from './components/EmployeeDetail';
 
 const RouterComponent = () => {
     return(
@@ -24,6 +25,7 @@ const RouterComponent = () => {
                         
                     <Scene key="employeeCreate" component={EmployeeCreate} title="Create Recepie"  />
                     <Scene key="employeeEdit" component={EmployeeEdit} title="Edit Recepie" />
+                    <Scene key="employeeDetail" component={EmployeeDetail} title=" "/>
                 </Scene>
             </Scene>
         </Router>

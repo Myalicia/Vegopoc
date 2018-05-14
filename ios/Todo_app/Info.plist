@@ -39,9 +39,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
@@ -52,5 +51,20 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Brandon_bld_it.otf</string>
+		<string>Brandon_bld.otf</string>
+		<string>Brandon_blk_it.otf</string>
+		<string>Brandon_blk.otf</string>
+		<string>Brandon_light_it.otf</string>
+		<string>Brandon_light.otf</string>
+		<string>Brandon_med_it.otf</string>
+		<string>Brandon_med.otf</string>
+		<string>Brandon_reg_it.otf</string>
+		<string>Brandon_reg.otf</string>
+		<string>Brandon_thin_it.otf</string>
+		<string>Brandon_thin.otf</string>
+	</array>
 </dict>
 </plist>

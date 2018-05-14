@@ -37,6 +37,22 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C17F03CD7E37421082469D52 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61414844B26C481E85A8966C /* libReactNativeNavigation.a */; };
+		B7556195B98B4605B3450C9E /* 38633.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0376807A2B4CB7BBFFE8D3 /* 38633.png */; };
+		F0016AA3192941F6A711F6F6 /* 39745.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D5EDF75FA22C48F9847E11D9 /* 39745.jpeg */; };
+		0906A04B53A14D24943EFEE6 /* 45019.png in Resources */ = {isa = PBXBuildFile; fileRef = 146E4C424112492581CF18AC /* 45019.png */; };
+		1CBB12854C0141D1873A1358 /* 58494.png in Resources */ = {isa = PBXBuildFile; fileRef = EDCF2B4BFF0F4CE9B617CAE4 /* 58494.png */; };
+		438FC3D4AB9544FCB7C94DE0 /* Brandon_bld_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 094371ED673C4814B62BBB28 /* Brandon_bld_it.otf */; };
+		D3949EC9A467469894092610 /* Brandon_bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9544C38F8FE477DAB90AFEC /* Brandon_bld.otf */; };
+		862DD2F53A204D329C4857D6 /* Brandon_blk_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 076B6EF254424E4CB6A6318E /* Brandon_blk_it.otf */; };
+		76F761267B364E03B247DAC3 /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 661D7AB9D9A742528C77DCCF /* Brandon_blk.otf */; };
+		EB076DB974D94229AC7712A4 /* Brandon_light_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20DFA2C1551A46D380106A34 /* Brandon_light_it.otf */; };
+		69CB131382B64A0883FDD459 /* Brandon_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9AE28088AE4D1F83084E69 /* Brandon_light.otf */; };
+		BD39662DE4274ED2900B3A3C /* Brandon_med_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 752F1C260E964D54A6C955EA /* Brandon_med_it.otf */; };
+		9C1E5174A14240BCBEC91188 /* Brandon_med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5441476FB74C30BC8574B4 /* Brandon_med.otf */; };
+		AFCB16B1625F4677BBA900B8 /* Brandon_reg_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65B76BAAC54248FB84557728 /* Brandon_reg_it.otf */; };
+		0E305AB8CFE4480399054727 /* Brandon_reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5D6FB3CB2594F46B8D6AE43 /* Brandon_reg.otf */; };
+		D715B69C0807455B8326E125 /* Brandon_thin_it.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67EECC1EE0AF4479A8D93687 /* Brandon_thin_it.otf */; };
+		11B256DE85AB42C987390CB2 /* Brandon_thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 026928F9F50549B6A9063537 /* Brandon_thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +304,22 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		68DD3958755A400F991096FA /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeNavigation.xcodeproj"; path = "../node_modules/react-native-navigation/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		61414844B26C481E85A8966C /* libReactNativeNavigation.a */ = {isa = PBXFileReference; name = "libReactNativeNavigation.a"; path = "libReactNativeNavigation.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		0F0376807A2B4CB7BBFFE8D3 /* 38633.png */ = {isa = PBXFileReference; name = "38633.png"; path = "../assets/Brandon Grotesque/38633.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5EDF75FA22C48F9847E11D9 /* 39745.jpeg */ = {isa = PBXFileReference; name = "39745.jpeg"; path = "../assets/Brandon Grotesque/39745.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		146E4C424112492581CF18AC /* 45019.png */ = {isa = PBXFileReference; name = "45019.png"; path = "../assets/Brandon Grotesque/45019.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDCF2B4BFF0F4CE9B617CAE4 /* 58494.png */ = {isa = PBXFileReference; name = "58494.png"; path = "../assets/Brandon Grotesque/58494.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		094371ED673C4814B62BBB28 /* Brandon_bld_it.otf */ = {isa = PBXFileReference; name = "Brandon_bld_it.otf"; path = "../assets/Brandon Grotesque/Brandon_bld_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9544C38F8FE477DAB90AFEC /* Brandon_bld.otf */ = {isa = PBXFileReference; name = "Brandon_bld.otf"; path = "../assets/Brandon Grotesque/Brandon_bld.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		076B6EF254424E4CB6A6318E /* Brandon_blk_it.otf */ = {isa = PBXFileReference; name = "Brandon_blk_it.otf"; path = "../assets/Brandon Grotesque/Brandon_blk_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		661D7AB9D9A742528C77DCCF /* Brandon_blk.otf */ = {isa = PBXFileReference; name = "Brandon_blk.otf"; path = "../assets/Brandon Grotesque/Brandon_blk.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20DFA2C1551A46D380106A34 /* Brandon_light_it.otf */ = {isa = PBXFileReference; name = "Brandon_light_it.otf"; path = "../assets/Brandon Grotesque/Brandon_light_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A9AE28088AE4D1F83084E69 /* Brandon_light.otf */ = {isa = PBXFileReference; name = "Brandon_light.otf"; path = "../assets/Brandon Grotesque/Brandon_light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		752F1C260E964D54A6C955EA /* Brandon_med_it.otf */ = {isa = PBXFileReference; name = "Brandon_med_it.otf"; path = "../assets/Brandon Grotesque/Brandon_med_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C5441476FB74C30BC8574B4 /* Brandon_med.otf */ = {isa = PBXFileReference; name = "Brandon_med.otf"; path = "../assets/Brandon Grotesque/Brandon_med.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65B76BAAC54248FB84557728 /* Brandon_reg_it.otf */ = {isa = PBXFileReference; name = "Brandon_reg_it.otf"; path = "../assets/Brandon Grotesque/Brandon_reg_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5D6FB3CB2594F46B8D6AE43 /* Brandon_reg.otf */ = {isa = PBXFileReference; name = "Brandon_reg.otf"; path = "../assets/Brandon Grotesque/Brandon_reg.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67EECC1EE0AF4479A8D93687 /* Brandon_thin_it.otf */ = {isa = PBXFileReference; name = "Brandon_thin_it.otf"; path = "../assets/Brandon Grotesque/Brandon_thin_it.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		026928F9F50549B6A9063537 /* Brandon_thin.otf */ = {isa = PBXFileReference; name = "Brandon_thin.otf"; path = "../assets/Brandon Grotesque/Brandon_thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +548,7 @@
 				00E356EF1AD99517003FC87E /* Todo_appTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0EB85058A77748FA9C0D69C3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -541,6 +574,30 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		0EB85058A77748FA9C0D69C3 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0F0376807A2B4CB7BBFFE8D3 /* 38633.png */,
+				D5EDF75FA22C48F9847E11D9 /* 39745.jpeg */,
+				146E4C424112492581CF18AC /* 45019.png */,
+				EDCF2B4BFF0F4CE9B617CAE4 /* 58494.png */,
+				094371ED673C4814B62BBB28 /* Brandon_bld_it.otf */,
+				E9544C38F8FE477DAB90AFEC /* Brandon_bld.otf */,
+				076B6EF254424E4CB6A6318E /* Brandon_blk_it.otf */,
+				661D7AB9D9A742528C77DCCF /* Brandon_blk.otf */,
+				20DFA2C1551A46D380106A34 /* Brandon_light_it.otf */,
+				4A9AE28088AE4D1F83084E69 /* Brandon_light.otf */,
+				752F1C260E964D54A6C955EA /* Brandon_med_it.otf */,
+				6C5441476FB74C30BC8574B4 /* Brandon_med.otf */,
+				65B76BAAC54248FB84557728 /* Brandon_reg_it.otf */,
+				A5D6FB3CB2594F46B8D6AE43 /* Brandon_reg.otf */,
+				67EECC1EE0AF4479A8D93687 /* Brandon_thin_it.otf */,
+				026928F9F50549B6A9063537 /* Brandon_thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -932,6 +989,22 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B7556195B98B4605B3450C9E /* 38633.png in Resources */,
+				F0016AA3192941F6A711F6F6 /* 39745.jpeg in Resources */,
+				0906A04B53A14D24943EFEE6 /* 45019.png in Resources */,
+				1CBB12854C0141D1873A1358 /* 58494.png in Resources */,
+				438FC3D4AB9544FCB7C94DE0 /* Brandon_bld_it.otf in Resources */,
+				D3949EC9A467469894092610 /* Brandon_bld.otf in Resources */,
+				862DD2F53A204D329C4857D6 /* Brandon_blk_it.otf in Resources */,
+				76F761267B364E03B247DAC3 /* Brandon_blk.otf in Resources */,
+				EB076DB974D94229AC7712A4 /* Brandon_light_it.otf in Resources */,
+				69CB131382B64A0883FDD459 /* Brandon_light.otf in Resources */,
+				BD39662DE4274ED2900B3A3C /* Brandon_med_it.otf in Resources */,
+				9C1E5174A14240BCBEC91188 /* Brandon_med.otf in Resources */,
+				AFCB16B1625F4677BBA900B8 /* Brandon_reg_it.otf in Resources */,
+				0E305AB8CFE4480399054727 /* Brandon_reg.otf in Resources */,
+				D715B69C0807455B8326E125 /* Brandon_thin_it.otf in Resources */,
+				11B256DE85AB42C987390CB2 /* Brandon_thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

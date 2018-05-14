@@ -11,13 +11,14 @@ import {Actions} from 'react-native-router-flux'
 
 
 
+
 class ImageWithText extends Component {
     onRowPress(){
-        Actions.employeeEdit({employee: this.props.employee})
+        Actions.employeeDetail({employee: this.props.employee})
     }
 
     render(){
-        const {name, phone, ingredients,instructions} = this.props.employee
+        const {name, phone} = this.props.employee
         return(
             <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
             <View>
@@ -59,13 +60,12 @@ const styles = {
        opacity: 0.9
     },
     textStyle: {
-        fontSize: 29,
-        fontFamily: 'palatino',
+        fontSize: 25,
+        fontFamily: 'helvetica',
         color: 'rgb(239,236,233)',
         fontWeight: 'bold',
         textShadow: '2px 2px 4px #000000',
-        padding: 15
-        
+        padding: 10    
     }
 }
 
