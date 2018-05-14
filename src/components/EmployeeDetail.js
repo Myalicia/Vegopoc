@@ -6,7 +6,7 @@ import {connect} from 'react-redux'
 import {employeeUpdate} from '../actions'
 import _ from 'lodash'
 import EmployeeForm from './EmployeeForm'
-import EmployeeEdit from './EmployeeEdit';
+
 
 class EmployeeDetail extends Component {
     componentWillMount() {
@@ -19,7 +19,7 @@ class EmployeeDetail extends Component {
         const {name, phone, ingredients, instructions} = this.props.employee
         return(
             <ScrollView>
-            
+                <View>
                 <Image 
                     source={{uri:phone}}
                     style={styles.imageStyle}
@@ -27,8 +27,9 @@ class EmployeeDetail extends Component {
                 <Text style={styles.textStyle}>
                     {name.toUpperCase()}
                 </Text>
+                </View>
 
-                <View style={{backgroundColor: 'black'}}>
+                <View style={styles.containerStyle}>
 
                 <Text style={styles.ingredientStyle}>
                     {ingredients}
@@ -65,8 +66,11 @@ const styles = {
     },
     ingredientStyle:{
         fontFamily:'Brandon Grotesque',
-        fontSize: 20,
-        color: 'white'
+        fontSize: 20
+    },
+    containerStyle:{
+        marginLeft: 25,
+        marginRight: 10
     }
 }
 
